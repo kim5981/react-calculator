@@ -1,9 +1,25 @@
 .App {
+  border: 10px rgb(65, 83, 81);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
+#display{
+  background-color: rgba(231, 224, 224, 0.822);
+  height: 50px;
+}
+
+.keypad{
+  display: flex;
+  background-color: rgb(207, 247, 235);
+  height: 250px; 
+}
 button{
-  padding: 1.5%;
+  padding: 2.5%;
   border: none;
 }
 
@@ -17,13 +33,7 @@ justify-content: center;
 align-items: center;
 }
 
-#display{
-  display: flex;
-  justify-content: center;
-  background-color: rgb(182, 182, 182);
-  height: 50px;
-  width: 80px;
-}
+
 
 
 
