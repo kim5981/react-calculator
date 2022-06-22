@@ -2,3 +2,28 @@
   text-align: center;
 }
 
+button{
+  padding: 1.5%;
+  border: none;
+}
+
+.num zero{
+  padding: 3%;
+}
+
+.calculator wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#display{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(182, 182, 182);
+  height: 50px;
+  width: 80px;
+}
+
+
+
